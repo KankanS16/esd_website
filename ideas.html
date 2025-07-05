@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>    
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title>ESD_Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>    
+<body>
+    <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="image/logo.png"></a>
+        <div class="nav-links" id="navlinks">
+         <i class="fa fa-times" onclick="hidemenu()"></i>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="ideas.html">IDEAS</a></li>
+            <li><a href="blog.html">BLOGS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+     </nav>
+  <h1>Ideas</h1>
+    </section>
+<!------idea content------>
+  <section class="Ideas">
+   <h1>Sustainable Solution</h1>
+    <p>Reduce Reuse Recycle</p>
+    <div class="row">
+        <div class="ideas-col">
+            <h3>Local NGOs</h3>
+            <p>Local NGOs educate communities about marine pollution, promoting sustainable habits to reduce waste. They organize beach cleanups, removing debris to protect marine ecosystems. NGOs lobby governments for stricter anti-pollution policies and regulations. Research on waste sources informs their solution-driven initiatives. Collaborations with locals foster community-driven sustainability efforts.</p>
+        </div>
+         <div class="ideas-col">
+                <h3>Municipal Corporation</h3>
+                <p>Municipal Corporations oversee waste collection, preventing debris from reaching waterways. They enforce regulations against littering and promote recycling programs. Infrastructure like recycling centers supports sustainable waste management. Educational campaigns encourage residents to reduce and recycle waste. They ensure proper disposal to protect marine environments.</p>
+         </div>
+         <div class="ideas-col">
+                <h3>Recycling Companies</h3>
+                <p>Recycling companies collect and process plastics, diverting waste from oceans. They innovate technologies to recycle complex materials efficiently. EPR programs promote sustainable product design with manufacturers. Recycling reduces demand for virgin resources, aiding sustainability. They collaborate with communities to enhance waste management systems.</p>
+         </div>
+    </div>
+ </section>
+ <!-------Community------>
+ <section class="community">
+    <h1>Our Community</h1>
+    <p>World is so beautiful ,don't ruin the beauty!</p>
+    <div class="row">
+        <div class="community-col">
+            <img src="image/wastecollection.jpg">
+            <h3>Managing sea waste</h3>
+              <p>Providing dustbins on beaches encourages proper waste disposal, reducing litter that harms marine life and pollutes oceans. Accessible bins promote community responsibility, ensuring cleaner shorelines and supporting sustainable coastal ecosystems.</p>
+        </div>
+        <div class="community-col">
+            <img src="image/volunteer1 (1).jpg"> 
+            <h3>Collection and Disposal</h3>
+              <p>Manual waste collection by NGO volunteers or municipal workers removes debris from beaches and coastal waters, protecting marine ecosystems. This hands-on approach fosters community involvement and ensures sustainable management of marine waste.</p>
+        </div>
+        <div class="community-col">
+            <img src="image/seawaste.jpg"> 
+            <h3>Reduce plastics from marine life</h3>
+              <p>Collecting plastic waste from seawater using specialized nets and vessels reduces ocean pollution and protects marine life. These efforts, often led by NGOs, promote sustainable oceans by preventing plastic accumulation in ecosystems.</p>
+        </div>
+    </div>
+
+
+ </section>
+
+   <!------Footer---->
+ <section class ="footer">
+    <h4>About Us</h4>
+    <p>To convey our message to every human being we have made a prototype website.
+        Every person can easily access to the website and by accessing the website
+         every body can easily know about aquatic life and theirs importance.</p>
+      <div class="icons">
+       <i class="fa fa-facebook"></i>
+       <i class="fa fa-linkedin"></i>
+       <i class="fa fa-instagram"></i>
+       <i class="fa fa-share-alt"></i>
+      </div>
+ </section>
+
+
+
+
+<script>
+  var navLinks = document.getElementById("navlinks");
+  function showmenu() {
+    navLinks.classList.add("active"); // Add active class to open menu
+  }
+  function hidemenu() {
+    navLinks.classList.remove("active"); // Remove active class to close menu
+  }
+</script>
+</body>  
+</html>    
